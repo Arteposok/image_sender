@@ -1,0 +1,19 @@
+[project]
+name = "image-sender"
+version = "0.1.0"
+description = "an application to transfer files, in particular png images over the network with TCP/IP"
+authors = [
+    {name = "Arteposok",email = "aeposokhov@gmail.com"}
+]
+license = {text = "MIT"}
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "pyqt5 (>=5.15.11,<6.0.0)",
+    "termcolor (>=2.5.0,<3.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
